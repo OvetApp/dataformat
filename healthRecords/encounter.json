@@ -1,0 +1,15 @@
+{
+    "resourceType": "Encounter",
+    "status": "completed",
+    "serviceProvider": {
+        "reference": "dd"
+    },
+    "location": [
+        {
+            "status": "current",
+            "location": {
+                "display": "LocationType, aka the facility"
+            }
+        }
+    ]
+}

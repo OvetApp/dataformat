@@ -1,0 +1,42 @@
+{
+    "resourceType": "Immunization",
+    "id": "969ab7e2-6846-9992-7c95-04aba58af7f4",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/us/core/StructureDefinition/us-core-immunization"
+        ]
+    },
+    "status": "completed",
+    "vaccineCode": {
+        "coding": [
+            {
+                "system": "https://vtsl.vetmed.vt.edu/extension",
+                "code": "349231000009103",
+                "display": "Animal immunization for rabies"
+            }
+        ],
+        "text": "zoster vaccine, live"
+    },
+    "patient": {
+        "reference": "90e9782b-713e-b488-8be3-eb7bb6e63b78"
+    },
+    "encounter": {
+        "reference": "7048a626-8fe1-8599-c980-d0cae481d279"
+    },
+    "occurrenceDateTime": "2016-02-21T10:54:05-05:00",
+    "protocolApplied": [
+        {
+            "targetDisease": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "440540003",
+                            "display": "Rabies"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
