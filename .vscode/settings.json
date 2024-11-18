@@ -14,9 +14,15 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "/goalInstance.json"
+                "records/immunization*.json",
+                "records/goal*.json",
+                "records/encounter*.json",
+                "records/observation*.json",
+                "records/patient*.json",
+                "records/person*.json",
+                "records/relatedPerson*.json"
             ],
-            "url": "./goal.schema.json"
-        }
+            "url": "./fhir.schema.json"
+        },
     ]
 }

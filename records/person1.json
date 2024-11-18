@@ -1,0 +1,39 @@
+{
+    "resourceType": "Person",
+    "id": "caregiver",
+    "name": [
+        {
+            "use": "official",
+            "family": "Smith",
+            "given": [
+                "John"
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "555-1234",
+            "use": "mobile"
+        },
+        {
+            "system": "email",
+            "value": "john.smith@example.com",
+            "use": "home"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1980-01-01",
+    "address": [
+        {
+            "use": "home",
+            "line": [
+                "123 Main St"
+            ],
+            "city": "Anytown",
+            "state": "Anystate",
+            "postalCode": "12345",
+            "country": "USA"
+        }
+    ]
+}

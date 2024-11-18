@@ -1,0 +1,85 @@
+{
+  "resourceType": "Patient",
+  "id": "example",
+  "identifier": [
+    {"use": "secondary",
+      "type": {
+        "text": "Dog Tag"
+      },
+      "system": "http://www.maroondah.vic.gov.au/AnimalRegFees.aspx",
+      "value": "1234123",
+      "period": {
+        "start": "2010-05-31"
+      },
+      "assigner": {
+        "display": "Maroondah City Council"
+      }
+    },   {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/v2/0203",
+            "code": "MR"
+          }
+        ]
+      },
+      "system": "http://hospital.smarthealthit.org",
+      "value": "12345"
+    }
+  ],
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A human-readable rendering of the patient</div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-animal",
+      "extension": [
+        {
+          "url": "species",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://snomed.info/sct",
+                "code": "448771007",
+                "display": "domestic Dog"
+              }
+            ]
+          }
+        },
+        {
+          "url": "breed",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "https://vtsl.vetmed.vt.edu/",
+                "code": "58108001",
+                "display": "Golden retriever"
+              }
+            ]
+          }
+        },
+        {
+          "url": "genderStatus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/animal-genderstatus",
+                "code": "neutered"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "family": "Phoenix"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2018-01-01"
+}

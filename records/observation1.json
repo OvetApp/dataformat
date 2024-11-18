@@ -1,0 +1,30 @@
+{
+  "resourceType": "Observation",
+  "id": "body-condition-score",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "vital-signs",
+          "display": "Vital Signs"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "https://vtsl.vetmed.vt.edu",
+        "code": "361991000009101",
+        "display": "Body condition score 9/9"
+      }
+    ],
+    "text": "Body condition score"
+  },
+  "subject": {
+    "reference": "Patient/dog-id"
+  },
+  "effectiveDateTime": "2023-10-01T12:00:00Z"
+}

@@ -1,0 +1,10 @@
+{    
+    "resourceType": "Goal",
+    "description": {
+        "text": "Description of the goal"
+    },
+    "subject": {
+        "reference": "patient1"
+    },
+    "statusDate": "2016-02-21"
+}

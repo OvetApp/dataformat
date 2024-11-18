@@ -1,4 +1,4 @@
 samples/
-fhir.schema.json
 pleblond*.jsonfhir.schema.json
 pleblond*.json
+fhirSamples*
