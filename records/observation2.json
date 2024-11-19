@@ -1,6 +1,6 @@
 {
   "resourceType": "Observation",
-  "id": "body-condition-score",
+  "id": "uuid-observation2",
   "status": "final",
   "code": {
     "coding": [

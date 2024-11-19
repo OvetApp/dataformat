@@ -27627,7 +27627,8 @@
         "required": [
           "subject",
           "description",
-          "resourceType"
+          "resourceType",
+          "statusDate"
         ]
       },
       "Goal_Target": {

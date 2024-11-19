@@ -1,15 +1,16 @@
 {
   "resourceType": "Observation",
-  "id": "uuid-observation1" ,
+  "id": "uuid-observation1",
   "status": "final",
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "135815002",
-        "display": "General health good"
+        "system": "https://vtsl.vetmed.vt.edu",
+        "code": "361991000009101",
+        "display": "Body condition score 9/9"
       }
-    ]
+    ],
+    "text": "Body condition score"
   },
   "subject": {
     "reference": "Patient/uuid-patient1"

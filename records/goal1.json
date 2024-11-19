@@ -1,4 +1,5 @@
-{    
+{   
+    "lifecycleStatus": "planned",  
     "resourceType": "Goal",
     "description": {
         "text": "Description of the goal"

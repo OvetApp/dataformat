@@ -1,18 +1,18 @@
 {
   "resourceType": "Observation",
-  "id": "body-condition-score",
+  "id": "uuid-observation3",
   "status": "final",
   "code": {
     "coding": [
       {
-        "system": "http://snomed.info/sct",
-        "code": "135815002",
-        "display": "General health good"
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+        "code": "vital-signs",
+        "display": "Vital Signs"
       }
     ]
   },
   "subject": {
-    "reference": "Patient/example"
+    "reference": "Patient/uuid-patient1"
   },
   "encounter": {
     "reference": "Encounter/uuid-encounter1"
