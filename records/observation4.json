@@ -1,0 +1,21 @@
+{
+    "resourceType": "Observation",
+    "id": "uuid-observation1",
+    "status": "final",
+    "code": {
+      "coding": [
+        {
+          "system": "https://vtsl.vetmed.vt.edu",
+          "code": "358481000009106",
+          "display": "Generalized periodontal disease, AVDC stage 1"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/uuid-patient1"
+    },
+    "encounter": {
+      "reference": "Encounter/uuid-encounter1"
+    },
+    "effectiveDateTime": "2023-10-01T12:00:00Z"
+  }

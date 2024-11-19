@@ -20,7 +20,8 @@
                 "records/observation*.json",
                 "records/patient*.json",
                 "records/person*.json",
-                "records/relatedPerson*.json"
+                "records/relatedPerson*.json",
+                "records/condition*.json"
             ],
             "url": "./fhirR4.schema.json"
         },
