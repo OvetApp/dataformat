@@ -22,7 +22,7 @@
                 "records/person*.json",
                 "records/relatedPerson*.json"
             ],
-            "url": "./fhir.schema.json"
+            "url": "./fhirR4.schema.json"
         },
     ]
 }

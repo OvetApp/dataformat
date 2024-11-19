@@ -1,30 +1,21 @@
 {
   "resourceType": "Observation",
-  "id": "body-condition-score",
+  "id": "uuid-observation1" ,
   "status": "final",
-  "category": [
-    {
-      "coding": [
-        {
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code": "vital-signs",
-          "display": "Vital Signs"
-        }
-      ]
-    }
-  ],
   "code": {
     "coding": [
       {
-        "system": "https://vtsl.vetmed.vt.edu",
-        "code": "361991000009101",
-        "display": "Body condition score 9/9"
+        "system": "http://snomed.info/sct",
+        "code": "135815002",
+        "display": "General health good"
       }
-    ],
-    "text": "Body condition score"
+    ]
   },
   "subject": {
-    "reference": "Patient/dog-id"
+    "reference": "Patient/uuid-patient1"
+  },
+  "encounter": {
+    "reference": "Encounter/uuid-encounter1"
   },
   "effectiveDateTime": "2023-10-01T12:00:00Z"
 }
