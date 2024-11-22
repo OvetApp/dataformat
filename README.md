@@ -70,6 +70,7 @@ enc[Encounter]:::others
 obs[Observation]:::others
 dr[Diagnostic Report]:::others
 mr[MedicationRequest]:::others
+ap[apointment]:::others
 
 
 pat[Patient]
@@ -79,10 +80,11 @@ ie[ImmunizationEvaluation]
 
 %% Relationships
 
-enc -- reasonReference --> ir
-obs -- basedOn --> ir
-dr -- basedOn --> ir
-mr -- partOf --> ir
+enc -- references --> ir
+obs -- references --> ir
+dr -- references --> ir
+mr -- references --> ir
+ap -- reference --> ir
 
 ir -- references --> pat
 ir -- references --> org
