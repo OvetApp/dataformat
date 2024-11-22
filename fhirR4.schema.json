@@ -164,6 +164,9 @@
             "$ref": "#/definitions/Immunization"
         },
         {
+          "$ref": "#/definitions/ImmunizationRecommendation"
+        },
+        {
             "$ref": "#/definitions/Observation"
         },
         {
