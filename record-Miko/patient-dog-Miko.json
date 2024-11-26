@@ -1,37 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "example",
-  "identifier": [
-    {"use": "secondary",
-      "type": {
-        "text": "Dog Tag"
-      },
-      "system": "http://www.maroondah.vic.gov.au/AnimalRegFees.aspx",
-      "value": "1234123",
-      "period": {
-        "start": "2010-05-31"
-      },
-      "assigner": {
-        "display": "Maroondah City Council"
-      }
-    },   {
-      "use": "usual",
-      "type": {
-        "coding": [
-          {
-            "system": "http://hl7.org/fhir/v2/0203",
-            "code": "MR"
-          }
-        ]
-      },
-      "system": "http://hospital.smarthealthit.org",
-      "value": "12345"
-    }
-  ],
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A human-readable rendering of the patient</div>"
-  },
+  "id": "/patients/fVqOVYynJ8s5oR1Ds0GK",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/patient-animal",
@@ -75,9 +44,23 @@
     }
   ],
   "active": true,
+  "relatedPerson": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "code": "C"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "name": [
     {
-      "family": "Phoenix"
+      "family": "Miko"
     }
   ],
   "gender": "male",

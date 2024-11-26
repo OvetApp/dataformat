@@ -1,6 +1,6 @@
 {
     "resourceType": "Immunization",
-    "id": "uuid-immunization1",
+    "id": "immunizations/HbW9vLDo5q3hNQARs3c3",
     "status": "completed",
     "vaccineCode": {
         "coding": [
@@ -9,18 +9,18 @@
                 "code": "344321000009105",
                 "display": "Animal immunization for rabies"
             }
-        ],
-        "text": "zoster vaccine, live"
+        ]
     },
     "patient": {
-        "reference": "uuid-patient1"
+        "reference": "patients/fVqOVYynJ8s5oR1Ds0GK"
     },
     "encounter": {
-        "reference": "uuid-encounter1"
+        "reference": "encounters/W1jiYXinEM3iFdLcTBP"
     },
-    "occurrenceDateTime": "2016-02-21T10:54:05-05:00",
+    "occurenceDateTime": "2022-03-24T18:25:30.000Z",
+    "recorded": "2024-11-25T21:24:56.000Z",
     "protocolApplied": [
-        {
+        { 
             "targetDisease": [
                 {
                     "coding": [
@@ -31,7 +31,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "seriesDosesString": "2",
+            "doseNumberString" : "2"
         }
     ]
 }

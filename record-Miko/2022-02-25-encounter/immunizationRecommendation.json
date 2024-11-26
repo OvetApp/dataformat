@@ -1,0 +1,33 @@
+{
+    "resourceType": "ImmunizationRecommendation",
+    "id": "immunizationRecommendation/YL9O6xkiTUtABwjjjjDj",
+    
+    "recommendation": [
+        {
+            "targetDisease": {
+                "coding": [
+                    {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://example.org/fhir/CodeSystem/immunization-recommendation-date-criterion",
+                                    "code": "recommended",
+                                    "display": "Recommended"
+                                }
+                            ]
+                        },
+                        "value": "2022-03-25"
+                    }
+                ],
+                "description": "Second sequence in protocol",
+                "doseNumberPositiveString": "2",
+                "seriesDosesPositiveString": "2",
+                "supportingImmunization": [
+                    {
+                        "reference": "immunizations/HbW9vLDo5q3hNQARs3c3"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -5,7 +5,7 @@
     "recommendation": [
         {
             "targetDisease": {
-                "coding": [
+                "coding": [ 
                     {
                         "system": "http://snomed.info/sct",
                         "code": "40468003"

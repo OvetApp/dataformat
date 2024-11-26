@@ -14,14 +14,14 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "records/immunization*.json",
-                "records/goal*.json",
-                "records/encounter*.json",
-                "records/observation*.json",
-                "records/patient*.json",
-                "records/person*.json",
-                "records/relatedPerson*.json",
-                "records/condition*.json"
+                  "*immunization*.json",
+                    "*goal*.json",
+                    "*encounter*.json",
+                    "*observation*.json",
+                    "*patient*.json",
+                    "*person*.json",
+                    "*relatedPerson*.json",
+                    "*condition*.json"
             ],
             "url": "./fhirR4.schema.json"
         },

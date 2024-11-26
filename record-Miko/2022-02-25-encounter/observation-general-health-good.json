@@ -1,0 +1,41 @@
+{
+  "resourceType": "Observation",
+  "id": "observations/vJLhxxSqIBpoM6oMoODy",
+  "status": "final",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "exam",
+          "display": "Exam"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "82832008",
+        "display": "General body state finding"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "patients/fVqOVYynJ8s5oR1Ds0GK"
+  },
+  "encounter": {
+    "reference": "encounters/N1jiYXinEM3iFdLcTBPU"
+  },
+  "effectiveDateTime": "2022-02-25",
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "135815002",
+        "display": "General health good"
+      }
+    ]
+  }
+}

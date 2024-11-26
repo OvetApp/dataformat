@@ -1,0 +1,39 @@
+{
+    "resourceType": "Immunization",
+    "id": "immunizations/HbW9vLDo5q3hNQARs3c3",
+    "status": "completed",
+    "vaccineCode": {
+        "coding": [
+            {
+                "system": "https://vtsl.vetmed.vt.edu",
+                "code": "344321000009105",
+                "display": "Animal immunization for rabies"
+            }
+        ]
+    },
+    "patient": {
+        "reference": "patients/fVqOVYynJ8s5oR1Ds0GK"
+    },
+    "encounter": {
+        "reference": "encounters/N1jiYXinEM3iFdLcTBPU"
+    },
+    "occurrenceDateTime": "2022-02-25T18:57:30.000Z",
+    "recorded": "2024-11-25T21:24:56.000Z",
+    "protocolApplied": [
+        { 
+            "targetDisease": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "code": "440540003",
+                            "display": "Rabies"
+                        }
+                    ]
+                }
+            ],
+            "seriesDosesString": "1",
+            "doseNumberString" : "2"
+        }
+    ]
+}

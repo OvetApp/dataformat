@@ -1,12 +1,12 @@
 {
-    "resourceType": "Person",
-    "id": "caregiver",
+    "resourceType": "Observation",
+    "id": "persons/4ORGvuUQSDailP6QPPnucoYHNvy1",
     "name": [
         {
             "use": "official",
             "family": "Smith",
             "given": [
-                "John"
+                "Philippe"
             ]
         }
     ],
